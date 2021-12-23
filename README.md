@@ -16,21 +16,29 @@ Perceptron is a one layered artifical neural network base unit. It consists of a
 
 A single layer perceptron (SLP) is a feed-forward network based on a threshold transfer function. SLP is the simplest type of artificial neural networks and can only classify linearly separable cases with a binary target (1 , 0).
 
-![Screenshot_1](https://user-images.githubusercontent.com/74189776/147287315-95a37d54-3205-42c1-b1d7-f6a46c5422db.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74189776/147287315-95a37d54-3205-42c1-b1d7-f6a46c5422db.png" alt="Screenshot_1"/>
+</p>
 
 ### Algorithm
 
 The single layer perceptron does not have a priori knowledge, so the initial weights are assigned randomly. SLP sums all the weighted inputs and if the sum is above the threshold (some predetermined value), SLP is said to be activated (output=1). 
 
-![Screenshot_2](https://user-images.githubusercontent.com/74189776/147287378-928bd6af-9a39-4da0-9af6-2db4b59314e5.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74189776/147287378-928bd6af-9a39-4da0-9af6-2db4b59314e5.png" alt="Screenshot_2"/>
+</p>
 
 The input values are presented to the perceptron, and if the predicted output is the same as the desired output, then the performance is considered satisfactory and no changes to the weights are made. However, if the output does not match the desired output, then the weights need to be changed to reduce the error. 
 
-![Screenshot_3](https://user-images.githubusercontent.com/74189776/147287421-57fb963b-4143-4cdb-8442-2a9846d6038a.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74189776/147287421-57fb963b-4143-4cdb-8442-2a9846d6038a.png" alt="Screenshot_3"/>
+</p>
 
 Because SLP is a linear classifier and if the cases are not linearly separable the learning process will never reach a point where all the cases are classified properly. The most famous example of the inability of perceptron to solve problems with linearly non-separable cases is the XOR problem.
 
-![Screenshot_4](https://user-images.githubusercontent.com/74189776/147287443-e9ea29b8-eab4-47db-a24d-3f5295f4012a.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74189776/147287443-e9ea29b8-eab4-47db-a24d-3f5295f4012a.png" alt="Screenshot_4"/>
+</p>
 
 However, a multi-layer perceptron using the backpropagation algorithm can successfully classify the XOR data.
 
@@ -50,7 +58,9 @@ User’s clicked location is saved and organized according to our coordinate sys
 
 Because our coordinate plane is pixel based, our input data of X and Y values will be assigned as a pixel. But because these values will be immensely large numbers, it will come with a great work load. Our first priority is the minimize these values. That’s why we use normalization.
 
-![1](https://user-images.githubusercontent.com/74189776/147287454-5a7ed2a0-82f9-4cd4-9041-fd7feb94d8eb.png)
+<p align="center">
+  <img src="hhttps://user-images.githubusercontent.com/74189776/147287454-5a7ed2a0-82f9-4cd4-9041-fd7feb94d8eb.png" alt="1"/>
+</p>
 
 In the above process, all the input’s X and Y values are added sum and in radicand to calculate the norm value. After that we divide all the values of X and Y to the norm and realize the normalization process.
 
@@ -74,7 +84,9 @@ Signal value
 
 This value is dependant to the learning method. For instance our Perceptron method signal value:
 
-![CodeCogsEqn](https://user-images.githubusercontent.com/74189776/147287466-cf3504ae-5236-48ab-a8e1-a0c9ea772e1b.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74189776/147287466-cf3504ae-5236-48ab-a8e1-a0c9ea772e1b.png" alt="CodeCogsEqn"/>
+</p>
 
 •	r : Signal value
 •	d: Desired output
