@@ -16,4 +16,10 @@ Perceptron , tek katmanlı bir yapay sinir ağları temel birimidir. Eğitilebil
 
 A single layer perceptron (SLP) is a feed-forward network based on a threshold transfer function. SLP is the simplest type of artificial neural networks and can only classify linearly separable cases with a binary target (1 , 0).
 
+![Screenshot_1](https://user-images.githubusercontent.com/74189776/147287315-95a37d54-3205-42c1-b1d7-f6a46c5422db.png)
+
+### Algorithm
+
+The single layer perceptron does not have a priori knowledge, so the initial weights are assigned randomly. SLP sums all the weighted inputs and if the sum is above the threshold (some predetermined value), SLP is said to be activated (output=1). 
+
 
