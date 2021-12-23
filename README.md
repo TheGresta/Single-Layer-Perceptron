@@ -59,7 +59,7 @@ User’s clicked location is saved and organized according to our coordinate sys
 Because our coordinate plane is pixel based, our input data of X and Y values will be assigned as a pixel. But because these values will be immensely large numbers, it will come with a great work load. Our first priority is the minimize these values. That’s why we use normalization.
 
 <p align="center">
-  <img src="hhttps://user-images.githubusercontent.com/74189776/147287454-5a7ed2a0-82f9-4cd4-9041-fd7feb94d8eb.png" alt="1"/>
+  <img src="https://user-images.githubusercontent.com/74189776/147287454-5a7ed2a0-82f9-4cd4-9041-fd7feb94d8eb.png" alt="1"/>
 </p>
 
 In the above process, all the input’s X and Y values are added sum and in radicand to calculate the norm value. After that we divide all the values of X and Y to the norm and realize the normalization process.
