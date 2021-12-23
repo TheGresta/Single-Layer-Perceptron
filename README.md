@@ -97,4 +97,5 @@ Ultimately, weight coefficient and X values have gotten. Thus we could draw any 
 # References
 
 https://tr.wikipedia.org/wiki/Perceptron
+
 https://www.saedsayad.com/artificial_neural_network_bkp.htm
