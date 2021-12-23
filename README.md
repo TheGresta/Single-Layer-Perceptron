@@ -22,4 +22,8 @@ A single layer perceptron (SLP) is a feed-forward network based on a threshold t
 
 The single layer perceptron does not have a priori knowledge, so the initial weights are assigned randomly. SLP sums all the weighted inputs and if the sum is above the threshold (some predetermined value), SLP is said to be activated (output=1). 
 
+![Screenshot_2](https://user-images.githubusercontent.com/74189776/147287378-928bd6af-9a39-4da0-9af6-2db4b59314e5.png)
+
+The input values are presented to the perceptron, and if the predicted output is the same as the desired output, then the performance is considered satisfactory and no changes to the weights are made. However, if the output does not match the desired output, then the weights need to be changed to reduce the error. 
+
 
