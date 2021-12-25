@@ -48,7 +48,7 @@ However, a multi-layer perceptron using the backpropagation algorithm can succes
 
 ## How do the code work?
 
-### Hiding the input data
+### Saving the input data
 
 When the user selects a class and clicks our picture box, we save our input data inside the clicked location to a struct
 Struct:
