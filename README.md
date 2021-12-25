@@ -52,9 +52,9 @@ However, a multi-layer perceptron using the backpropagation algorithm can succes
 
 When the user selects a class and clicks our picture box, we save our input data inside the clicked location to a struct
 Struct:
-•	Input X coordinate
-•	Input Y coordinate
-•	Input ID
+*	Input X coordinate
+*	Input Y coordinate
+*	Input ID
 
 User’s clicked location is saved and organized according to our coordinate system as in X and Y. Later, to be able ensure supervision, we assign our snapped class index as ID value of the input also.
 
@@ -92,15 +92,15 @@ This value is dependant to the learning method. For instance our Perceptron meth
   <img src="https://user-images.githubusercontent.com/74189776/147287466-cf3504ae-5236-48ab-a8e1-a0c9ea772e1b.png" alt="CodeCogsEqn"/>
 </p>
 
-•	r : Signal value
-•	d: Desired output
-•	o: Output
+*	r : Signal value
+*	d: Desired output
+*	o: Output
 
 ### W = W + crx
 
-•	c : Learning rate (0.1)
-•	r : Singnal value
-•	x : Samples
+*	c : Learning rate (0.1)
+*	r : Singnal value
+*	x : Samples
 
 Here crx represents the change of W value. With this weight coefficient is updated.
 
